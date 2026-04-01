@@ -78,7 +78,7 @@ class JunaLinkedList {
     if (current.next == null) {
         System.out.println("data tidak dtemukan");
     } else {
-        System.out.println("data tidak dtemukan. menghapus data");
+        System.out.println("data dtemukan. menghapus data");
         current.next = current.next.next;
     }
 } 
